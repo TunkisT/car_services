@@ -1,35 +1,35 @@
 export const ServicesData = [
   {
     id: 1,
-    title: 'Web Hosting',
+    title: 'STAGE 1',
     image: '/images/hosting/web-hosting.svg',
-    text: 'Faster, secured web hosting with 99% uptime and daily backups.',
+    text: 'On stage 1 remap, we do individual changes for fuel injection quantity, start of injection, turbocharger boost pressure, rail pressure, turbine geometry control and for limiting maps.',
     price: '$1 /month',
-    link: '/hosting/web-hosting'
+    link: '/hosting/web-hosting',
   },
   {
     id: 2,
-    title: 'Reseller Hosting',
+    title: 'STAGE 2',
     image: '/images/hosting/reseller-hosting.svg',
-    text: 'Fully white-label cPanel reseller hosting with daily backups.',
+    text: 'We can make Stage 2, 3 remap for highly modified engine with hybrid turbochargers, bigger injectors, modified high pressure fuel pumps, free flow exhaust systems, etc.',
     price: '$3 /month',
-    link: '/hosting/reseller-hosting'
+    link: '/hosting/reseller-hosting',
   },
   {
     id: 3,
-    title: 'WordPress Hosting',
+    title: 'EGR REMOVAL',
     image: '/images/hosting/wordpress-hosting.svg',
-    text: 'Faster, secure wordpress websites backed by fast hardware and web server.',
+    text: 'To turn off EGR valve we use different solutions for different models. At the end EGR is switched off and cause no more problems. Engine will be more efficient with better fuel economy.',
     price: '$5 /month',
-    link: '/hosting/wordpress-hosting'
+    link: '/hosting/wordpress-hosting',
   },
   {
     id: 4,
-    title: 'VPS Hosting',
+    title: 'DPF/FAP REMOVAL',
     image: '/images/hosting/vps-hosting.svg',
-    text: 'High performance Ryzen servers with NVMe ssd disk and 10Gbps port.',
+    text: 'We use various methods to disable regeneration of DPF systems. After successful shutdown, filter can be removed from exhaust system without causing error codes or limp mode.',
     price: '$9 /month',
-    link: '/vps'
+    link: '/vps',
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const ServicesData = [
     image: '/images/hosting/cloud-server.svg',
     text: 'Secure professional and high delivery email for your organization.',
     price: '$15 /month',
-    link: '/email'
+    link: '/email',
   },
   {
     id: 6,
@@ -45,6 +45,6 @@ export const ServicesData = [
     image: '/images/hosting/dedicaed-server.svg',
     text: 'Bare metal high performing servers delivered instantly.',
     price: '$30 /month',
-    link: '/dedicated'
+    link: '/dedicated',
   },
-]
+];
