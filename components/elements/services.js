@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className='section'>
       <div className='section-title'>
-        <h2>Our services</h2>
+        <h2>EcuRemap services</h2>
       </div>
       <div className='cards'>
         {ServicesData.map((item) => (

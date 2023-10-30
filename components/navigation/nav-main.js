@@ -20,7 +20,7 @@ const NavMain = () => {
       <nav className={'main-nav ' + (menuOpen ? 'active-mobile-menu' : '')}>
         <ul className='main-menu'>
           <li className='has-children'>
-            <Link href='/hosting'>HOME</Link>
+            <Link href='/'>HOME</Link>
           </li>
           <li className='has-children'>
             <Link href='/vps'>VEHICLE LIST</Link>
@@ -32,7 +32,7 @@ const NavMain = () => {
             <Link href='/email'>SERVICES</Link>
           </li>
           <li>
-            <Link href='/contact'>Contact</Link>
+            <Link href='/contact'>CONTACT US</Link>
           </li>
         </ul>
         <Link href='#'>
