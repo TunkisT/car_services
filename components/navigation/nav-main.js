@@ -20,24 +20,21 @@ const NavMain = () => {
       <nav className={'main-nav ' + (menuOpen ? 'active-mobile-menu' : '')}>
         <ul className='main-menu'>
           <li className='has-children'>
-            <Link href='/hosting'>HOME</Link>
+            <Link href='/'>HOME</Link>
           </li>
           <li className='has-children'>
             <Link href='/vps'>VEHICLE LIST</Link>
           </li>
           <li>
-            <Link href='/dedicated'>PRICING</Link>
+            <Link href='/pricing'>PRICING</Link>
           </li>
           <li>
-            <Link href='/email'>SERVICES</Link>
+            <Link href='/services'>SERVICES</Link>
           </li>
           <li>
-            <Link href='/contact'>Contact</Link>
+            <Link href='/contact'>CONTACT US</Link>
           </li>
         </ul>
-        <Link href='#'>
-          <a className='button view-desktop'>Login</a>
-        </Link>
       </nav>
     </div>
   );
