@@ -1,38 +1,38 @@
 export const FeaturesData = [
   {
     id: 1,
-    title: 'NVME SSD Disk',
+    title: 'BMW E46 330D STAGE 3',
     image: '/images/icons/ssd.svg',
-    text: 'Super fast latest NEMe ssd disk to boost your website performance.'
+    text: 'Senas lauzas',
   },
   {
     id: 2,
-    title: 'High Performing Hardware',
+    title: 'BMW E90 335D STAGE 3',
     image: '/images/icons/cpu.svg',
-    text: 'With high-end hardware you have always the performance you need for your projects.'
+    text: 'Tipo valit',
   },
   {
     id: 3,
-    title: '99.95% Uptime Guarantee',
+    title: 'BMW E60 530D STAGE 2',
     image: '/images/icons/uptime.svg',
-    text: 'Our services includes 99.95% uptime guarantee which is a very high uptime guarantee in the hosting field.'
+    text: 'Negaliu blet ziuret',
   },
   {
     id: 4,
-    title: 'DDoS Protection',
-    image: '/images/icons/ddos.svg',
-    text: 'Our services includes a free DDoS protection which guarantees the highest availability during attacks.'
+    title: 'BMW E46 330D STAGE 3',
+    image: '/images/icons/ssd.svg',
+    text: 'Senas lauzas',
   },
   {
     id: 5,
-    title: '24/7 Support',
-    image: '/images/icons/support.svg',
-    text: 'We have an excellant dedicated customer care available 24x7 to helpyou anytime.'
+    title: 'BMW E90 335D STAGE 3',
+    image: '/images/icons/cpu.svg',
+    text: 'Tipo valit',
   },
   {
     id: 6,
-    title: 'Free Migration',
-    image: '/images/icons/migration.svg',
-    text: 'We can migrate your website to our servers for free and witin few hours only.'
-  }
-]
+    title: 'BMW E60 530D STAGE 2',
+    image: '/images/icons/uptime.svg',
+    text: 'Negaliu blet ziuret',
+  },
+];

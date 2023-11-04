@@ -1,14 +1,22 @@
-import Link from 'next/link'
+import Link from 'next/link';
 const FooterBlock2 = () => {
   return (
-    <div className="footer-block">
+    <div className='footer-block'>
       <ul>
-        <li><Link href="/hosting/web-hosting">Vehicle list</Link></li>
-        <li><Link href="/hosting/reseller-hosting">Prices</Link></li>
-        <li><Link href="/hosting/wordpress-hosting">Our services</Link></li>
-        <li><Link href="/email">Projects</Link></li>
+        <li>
+          <Link href='/vehicle-list'>VEHICLE LIST</Link>
+        </li>
+        <li>
+          <Link href='/pricing'>PRICING</Link>
+        </li>
+        <li>
+          <Link href='/services'>OUR SERVICES</Link>
+        </li>
+        <li>
+          <Link href='/projects'>PROJECTS</Link>
+        </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 export default FooterBlock2;

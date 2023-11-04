@@ -26,18 +26,15 @@ const NavMain = () => {
             <Link href='/vps'>VEHICLE LIST</Link>
           </li>
           <li>
-            <Link href='/dedicated'>PRICING</Link>
+            <Link href='/pricing'>PRICING</Link>
           </li>
           <li>
-            <Link href='/email'>SERVICES</Link>
+            <Link href='/services'>SERVICES</Link>
           </li>
           <li>
             <Link href='/contact'>CONTACT US</Link>
           </li>
         </ul>
-        <Link href='#'>
-          <a className='button view-desktop'>Login</a>
-        </Link>
       </nav>
     </div>
   );

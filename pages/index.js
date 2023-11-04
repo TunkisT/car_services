@@ -17,8 +17,6 @@ export default function Home() {
       <FrontHero />
       <main className='main'>
         <div className='container'>
-          <Services />
-          <SectionFasterHosting />
           <Features />
         </div>
       </main>
